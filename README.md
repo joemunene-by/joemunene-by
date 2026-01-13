@@ -76,21 +76,38 @@ Git • GitHub • Linux • Docker • Nmap • Burp Suite • Metasploit
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects Showcase
 
-### 🔹 GhostHacker
-A free cybersecurity education platform with structured lessons, CTF training, and penetration testing fundamentals.
-
-### 🔹 Network Traffic Analyzer
-Advanced traffic inspection and analysis tool designed for real-world network monitoring and security analysis.
-
-### 🔹 Vulnerability Scanners & Security Tools
-Custom Python-based scanners focused on exploitation patterns and defensive awareness.
-
-### 🔹 Full-Stack Web Applications
-Modern, responsive applications built with scalability, performance, and security in mind.
+<p align="center">
+  <a href="https://github.com/joemunene-by/AI-powered-SaaS-Dashboard-Web-App" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=joemunene-by&repo=AI-powered-SaaS-Dashboard-Web-App&theme=radical" alt="AI-powered SaaS Dashboard" height="160" />
+  </a>
+  <a href="https://github.com/joemunene-by/Network-Traffic-Analyzer" target="_blank" rel="noopener noreferrer" style="margin-left: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=joemunene-by&repo=Network-Traffic-Analyzer&theme=radical" alt="Network Traffic Analyzer" height="160" />
+  </a>
+  <a href="https://github.com/joemunene-by/Hash-Cracker-Dictionary-Brute-" target="_blank" rel="noopener noreferrer" style="margin-left: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=joemunene-by&repo=Hash-Cracker-Dictionary-Brute-&theme=radical" alt="Hash Cracker Dictionary Brute" height="160" />
+  </a>
+</p>
 
 ---
+
+## 💻 Terminal-style Skills
+
+$ echo "Skills and Tools:"
+Skills and Tools:
+- Languages: JavaScript, Python, C++, HTML, CSS, SQL, Bash
+- Frontend: React, Next.js, Tailwind CSS
+- Backend: Node.js, Express, REST APIs
+- Databases: PostgreSQL, MySQL, Supabase, Firebase
+- Security: Nmap, Burp Suite, Metasploit, Wireshark
+- DevOps: Git, Docker, Linux, CI/CD
+
+---
+🔐 Security Badges
+<p align="center"> <img src="https://img.shields.io/badge/Ethical_Hacker-%23FF5733?style=for-the-badge&logo=hackerone&logoColor=white" alt="Ethical Hacker Badge" /> <img src="https://img.shields.io/badge/Cybersecurity-%23007ACC?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cybersecurity Badge" /> <img src="https://img.shields.io/badge/Penetration_Testing-%23E34F26?style=for-the-badge&logo=penetrationtesting&logoColor=white" alt="Penetration Testing Badge" /> <img src="https://img.shields.io/badge/Security_Research-%23000000?style=for-the-badge&logo=researchgate&logoColor=white" alt="Security Research Badge" /> </p> 
+
+
 
 ## 📊 GitHub Analytics
 
