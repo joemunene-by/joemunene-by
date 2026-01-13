@@ -94,10 +94,9 @@ Modern, responsive applications built with scalability, performance, and securit
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joemunene-by&show_icons=true&theme=transparent" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joemunene-by&layout=compact&theme=transparent" height="160"/>
-</p>
+<!-- GitHub stats temporarily removed due to service outage -->
+
+
 
 ---
 
