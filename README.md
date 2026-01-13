@@ -59,58 +59,68 @@ My long-term goal is to become **one of the most technically capable engineers g
 
 ## 🛠️ Technology Stack
 
-### Languages
-```text
-JavaScript | Python | C++ | HTML | CSS | SQL | Bash
+### 💻 Languages
+JavaScript • Python • C++ • HTML • CSS • SQL • Bash
 
-Frontend
-HTML5 | CSS3 | Tailwind CSS | JavaScript | React | Next.js
+### 🎨 Frontend
+HTML5 • CSS3 • Tailwind CSS • JavaScript • React • Next.js
 
-Backend
-Node.js | Express | Python | REST APIs | Authentication
+### ⚙️ Backend
+Node.js • Express • Python • REST APIs • Authentication
 
-Databases & Cloud
-PostgreSQL | MySQL | Supabase | Firebase | GitHub Pages
+### 🗄️ Databases & Cloud
+PostgreSQL • MySQL • Supabase • Firebase • GitHub Pages
 
-Security & Dev Tools
-Git | GitHub | Linux | Docker | Nmap | Burp Suite | Metasploit
+### 🔐 Security & Dev Tools
+Git • GitHub • Linux • Docker • Nmap • Burp Suite • Metasploit
 
-🚀 Featured Projects
+---
 
-🔹 GhostHacker
+## 🚀 Featured Projects
+
+### 🔹 GhostHacker
 A free cybersecurity education platform with structured lessons, CTF training, and penetration testing fundamentals.
 
-🔹 Network Traffic Analyzer
-Advanced traffic inspection and analysis tool designed for learning real-world network monitoring and security analysis.
+### 🔹 Network Traffic Analyzer
+Advanced traffic inspection and analysis tool designed for real-world network monitoring and security analysis.
 
-🔹 Vulnerability Scanners & Security Tools
-Custom Python-based scanners focused on real-world exploitation patterns and defensive awareness.
+### 🔹 Vulnerability Scanners & Security Tools
+Custom Python-based scanners focused on exploitation patterns and defensive awareness.
 
-🔹 Full-Stack Web Applications
+### 🔹 Full-Stack Web Applications
 Modern, responsive applications built with scalability, performance, and security in mind.
 
-📊 GitHub Analytics
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=joemunene-by&show_icons=true&theme=transparent" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joemunene-by&layout=compact&theme=transparent" height="160"/> </p>
-🎯 Philosophy
+---
 
-“Skill beats credentials.
-Discipline beats motivation.
-Consistency builds mastery.”
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=joemunene-by&show_icons=true&theme=transparent" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joemunene-by&layout=compact&theme=transparent" height="160"/>
+</p>
+
+---
+
+## 🎯 Philosophy
+
+> **Skill beats credentials.**  
+> **Discipline beats motivation.**  
+> **Consistency builds mastery.**
 
 I believe in deep learning, long-term thinking, and building skills that compound over time.
 
-🤝 Collaboration & Opportunities
+---
+
+## 🤝 Collaboration & Opportunities
 
 I am open to:
+- Open-source collaboration  
+- Security research projects  
+- Startup & SaaS development  
+- Serious technical challenges  
 
-Open-source collaboration
+📫 **Reach me through GitHub**
 
-Security research projects
-
-Startup & SaaS development
-
-Serious technical challenges
-
-📫 Reach me through GitHub
-
-<p align="center"> <strong>Building systems. Breaking systems. Securing systems.</strong> </p> ```
+<p align="center">
+  <strong>Building systems. Breaking systems. Securing systems.</strong>
+</p>
