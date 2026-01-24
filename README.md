@@ -66,7 +66,7 @@ JavaScript • Python • C++ • HTML • CSS • SQL • Bash
 HTML5 • CSS3 • Tailwind CSS • JavaScript • React • Next.js
 
 ### ⚙️ Backend
-Node.js • Express • Python • REST APIs • Authentication
+Node.js • Express • Python • REST APIs • Authentication • NestJs
 
 ### 🗄️ Databases & Cloud
 PostgreSQL • MySQL • Supabase • Firebase • GitHub Pages
