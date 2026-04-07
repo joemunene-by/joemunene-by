@@ -95,7 +95,15 @@ Not a fine-tune. Not a wrapper. A model trained from tokenizer to weights.
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=joemunene-by&hide_border=true&background=0C0E14&ring=6C9CFF&fire=C4A1FF&currStreakLabel=6C9CFF&sideLabels=8A8FA8&currStreakNum=ffffff&sideNums=ffffff&dates=8A8FA8" />
+<img src="https://streak-stats.demolab.com/?user=joemunene-by&hide_border=true&background=0C0E14&ring=6C9CFF&fire=C4A1FF&currStreakLabel=6C9CFF&sideLabels=8A8FA8&currStreakNum=ffffff&sideNums=ffffff&dates=8A8FA8" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=joemunene-by&bg_color=0C0E14&color=8A8FA8&line=6C9CFF&point=C4A1FF&area=true&area_color=6C9CFF&hide_border=true" width="95%" />
 
 </div>
 
@@ -113,6 +121,8 @@ If you're building something that matters, I'd like to hear about it.
 **Nairobi, Kenya** · Open to opportunities · [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
 
 <br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=joemunene-by&color=6C9CFF&style=flat-square&label=Profile+Views)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0E14,50:6C9CFF,100:C4A1FF&height=100&section=footer" width="100%" />
 
