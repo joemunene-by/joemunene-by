@@ -1,36 +1,49 @@
-<h1 align="center">👻 Joe Munene — Ghost</h1>
-<p align="center">
-  <strong>Full-Stack Developer • Cybersecurity Researcher • CS Student @ Moi University</strong><br>
-  Building tools that think, hack, and automate.
-</p>
+<div align="center">
+
+# Joe Munene
+
+**Software Engineer & Cybersecurity Researcher**
+
+I'm a Computer Science student at Moi University, Nairobi, focused on building secure systems and tools that sit at the intersection of offensive security, full-stack development, and applied AI.
+
+I care about writing software that's built to last — clean architecture, real security, no shortcuts. Most of my work lives in open source.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0C0E14?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-peach-eta-42.vercel.app)
+[![Email](https://img.shields.io/badge/Email-0C0E14?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joemunene984@gmail.com)
+
+</div>
 
 ---
 
-## Stats — Auto-updated by Ghost Dashboard
+### What I work on
 
-| Metric | Value |
-|--------|-------|
-| 📁 Total Repos | 26 |
-| 💻 Lines of Code | 90,194 |
-| 📝 Total Commits | 217 |
-| ✅ Healthy Repos | 26 |
+**Security tooling** — I build penetration testing tools, vulnerability scanners, network analyzers, and cryptographic utilities. Not tutorials or wrappers — functional tools that solve real problems in offensive security workflows.
 
-## Top Repos by Commits
+**Full-stack systems** — Production web applications using React, Next.js, Node.js, and TypeScript. I focus on architecture that scales and code that other engineers can read six months later.
 
-| Repo | Language | Commits | Lines |
-|------|----------|---------|-------|
-| [ai-coding-assistant](https://github.com/joemunene-by/ai-coding-assistant) | TypeScript | 53 | 37 |
-| [sentinelpulse](https://github.com/joemunene-by/sentinelpulse) | JavaScript | 16 | 37 |
-| [Logo-website](https://github.com/joemunene-by/Logo-website) | JavaScript | 12 | 37 |
-| [Joe-learning-platform](https://github.com/joemunene-by/Joe-learning-platform) | HTML | 11 | 37 |
-| [My-Portfolio](https://github.com/joemunene-by/My-Portfolio) | TypeScript | 11 | 37 |
-
-## What I Do
-
-- **Cybersecurity** — Penetration testing, ethical hacking, CTF challenges
-- **Full-Stack Dev** — React, Next.js, Node.js, Python
-- **AI Integration** — Claude API, Groq, LLM-powered tools
-- **Automation** — Ghost Sync, Ghost Dashboard, bash tooling
+**AI & ML** — Currently building [GhostLM](https://github.com/joemunene-by/GhostLM), a cybersecurity-focused language model trained from scratch in PyTorch on CVE data, CTF writeups, and security research papers.
 
 ---
-<p align="center"><em>Last updated: 2026-03-11 20:07:36 by <a href="https://github.com/joemunene-by/ghost-toolkit-scripts">Ghost Dashboard v3.0</a></em></p>
+
+### Technical background
+
+```
+Languages    TypeScript · JavaScript · Python · Shell · SQL
+Frontend     React · Next.js · Tailwind CSS · Framer Motion
+Backend      Node.js · Express · PostgreSQL · SQLite
+Security     Nmap · Wireshark · Burp Suite · Metasploit · OSINT
+AI/ML        PyTorch · Transformers · Claude API · Groq
+Ops          Linux · Docker · Git · Vercel · GitHub Actions
+```
+
+---
+
+### Currently
+
+Building **GhostLM** — a decoder-only transformer trained on security data to understand vulnerabilities, attack patterns, and defensive strategies. Early stage, open source.
+
+---
+
+<div align="center">
+<sub>Nairobi, Kenya · Open to opportunities · Available for collaboration</sub>
+</div>
