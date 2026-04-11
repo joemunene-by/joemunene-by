@@ -72,11 +72,11 @@ Not a fine-tune. Not a wrapper. A model trained from tokenizer to weights.
 <td width="50%" valign="top">
 
 ### What I ship
-**Security tools** — Port scanners, traffic analyzers, vulnerability scanners, hash crackers, steganography tools, MAC spoofers
+**Security tools** — Port scanners, traffic analyzers, vulnerability scanners, hash crackers, steganography tools, MAC spoofers, metadata scrubbers
 
-**Full-stack apps** — AI coding assistants, SaaS dashboards, threat intelligence platforms, healthcare systems
+**Full-stack apps** — AI coding assistants, SaaS dashboards, threat intelligence platforms, mobile health apps
 
-**Open source** — 26+ repos, everything public
+**Open source contributions** — Contributing to [OWASP CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries/pull/2111) — AI Model Supply Chain Security
 
 </td>
 </tr>
