@@ -76,7 +76,9 @@ Not a fine-tune. Not a wrapper. A model trained from tokenizer to weights.
 
 **Full-stack apps** — AI coding assistants, SaaS dashboards, threat intelligence platforms, mobile health apps
 
-**Open source contributions** — Contributing to [OWASP CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries/pull/2111) — AI Model Supply Chain Security
+**Open source contributions**
+- [AutoGPT #12805](https://github.com/Significant-Gravitas/AutoGPT/pull/12805) — Fixed agent name preservation in builder node titles (merged)
+- [OWASP CheatSheetSeries #2111](https://github.com/OWASP/CheatSheetSeries/pull/2111) — AI Model Supply Chain Security
 
 </td>
 </tr>
