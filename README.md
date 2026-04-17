@@ -71,12 +71,14 @@ Not a fine-tune. Not a wrapper. A model trained from tokenizer to weights.
 </td>
 <td width="50%" valign="top">
 
-### Latest drop: secure-mcp
-An MCP server that exposes security tools to AI agents with **policy gates, subprocess sandboxing, and audit trails**. Drop-in for Claude Desktop / Cursor.
+### Latest drops
 
-Fail-closed by default. Every tool call is policy-checked, rate-limited, and logged.
+**[secure-mcp](https://github.com/joemunene-by/secure-mcp)** — MCP server exposing security tools to AI agents with policy gates, subprocess sandboxing, and audit trails. Fail-closed by default.
 
-[![secure-mcp](https://img.shields.io/badge/View_Repo-secure--mcp-C4A1FF?style=flat-square&logo=github)](https://github.com/joemunene-by/secure-mcp)
+**[CyberBench](https://github.com/joemunene-by/cyberbench)** — Open, reproducible benchmark for evaluating LLMs on cybersecurity reasoning. YAML tasks, pluggable backends, ranked leaderboard.
+
+[![secure-mcp](https://img.shields.io/badge/View-secure--mcp-C4A1FF?style=flat-square&logo=github)](https://github.com/joemunene-by/secure-mcp)
+[![CyberBench](https://img.shields.io/badge/View-CyberBench-6C9CFF?style=flat-square&logo=github)](https://github.com/joemunene-by/cyberbench)
 
 ### What I ship
 **Security tools** — Port scanners, traffic analyzers, vulnerability scanners, hash crackers, steganography tools, MAC spoofers, metadata scrubbers
