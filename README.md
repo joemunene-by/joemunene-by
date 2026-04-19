@@ -21,6 +21,8 @@ Currently training a cybersecurity-focused LLM from scratch.
 
 I'm a Computer Science student at **Moi University** (Nairobi, Kenya) working at the intersection of offensive security, full-stack engineering, and applied AI. I write code that other engineers can trust — clean architecture, real security, no shortcuts.
 
+I also lead **[Complex Developers](https://github.com/complexdevelopers)** — building web platforms, custom tooling, and AI-adjacent products for clients. The [company site + CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js + Prisma + Postgres.
+
 Most of my work is open source. I believe the best way to prove what you can build is to show it.
 
 <br>
@@ -95,6 +97,7 @@ Not a fine-tune. Not a wrapper. A model trained from tokenizer to weights.
 **Full-stack apps** — AI coding assistants, SaaS dashboards, threat intelligence platforms, mobile health apps
 
 **Open source contributions**
+- [pytorch/ignite #3741](https://github.com/pytorch/ignite/pull/3741) — Welford's online algorithm for numerically stable `PearsonCorrelation` (open; fixes float32 catastrophic cancellation)
 - [AutoGPT #12805](https://github.com/Significant-Gravitas/AutoGPT/pull/12805) — Fixed agent name preservation in builder node titles (merged)
 - [OWASP CheatSheetSeries #2111](https://github.com/OWASP/CheatSheetSeries/pull/2111) — AI Model Supply Chain Security
 
