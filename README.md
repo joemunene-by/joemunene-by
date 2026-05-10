@@ -5,7 +5,7 @@
 I build security tools, full-stack platforms, and AI systems from first principles.<br>
 Not wrappers. Not tutorials. Production code that solves real problems.
 
-Currently shipping **GhostLM**, an 81M parameter cybersecurity language model trained from scratch.
+Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** (an 81M parameter cybersecurity language model trained from scratch) and **[ghostloop](https://github.com/joemunene-by/ghostloop)** (the embodied-AI sibling: a tool-using agent runtime + fail-closed safety pipeline + sim-first execution harness for robotics).
 
 <br>
 
@@ -170,12 +170,15 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 
 ### Latest drops
 
+**[ghostloop v0.3.0](https://github.com/joemunene-by/ghostloop)** — The agent loop, embodied. Tool-using runtime + fail-closed safety pipeline + sim-first execution harness for embodied AI / robotics. Sister project to GhostLM. Three backends (Mock / MuJoCo / PyBullet), MuJoCo Menagerie loader (Franka / UR5e / Stretch / Allegro / Spot / Aloha), LLMPolicy adapter for any OpenAI-compatible endpoint, bench harness with Wilson 95% CIs + McNemar exact p + Cohen's h, five policy gates, trace replay, CLI. 93 tests green, zero runtime deps in core.
+
 **[secure-mcp](https://github.com/joemunene-by/secure-mcp)** — MCP server exposing security tools to AI agents with policy gates, subprocess sandboxing, and audit trails. Fail-closed by default.
 
 **[CyberBench](https://github.com/joemunene-by/cyberbench)** — Open, reproducible benchmark for evaluating LLMs on cybersecurity reasoning. YAML tasks, pluggable backends, ranked leaderboard.
 
 **[linkdrop v0.7.1](https://github.com/joemunene-by/linkdrop)** — Cross-platform Tauri + Rust desktop app bridging iPhone to Linux for photos, files, notifications, screen mirroring. Daemon-backed pymobiledevice3 bridge, CI-built .deb / .AppImage.
 
+[![ghostloop](https://img.shields.io/badge/View-ghostloop-14B8A6?style=flat-square&logo=github)](https://github.com/joemunene-by/ghostloop)
 [![secure-mcp](https://img.shields.io/badge/View-secure--mcp-C4A1FF?style=flat-square&logo=github)](https://github.com/joemunene-by/secure-mcp)
 [![CyberBench](https://img.shields.io/badge/View-CyberBench-6C9CFF?style=flat-square&logo=github)](https://github.com/joemunene-by/cyberbench)
 [![linkdrop](https://img.shields.io/badge/View-linkdrop-24C8DB?style=flat-square&logo=github)](https://github.com/joemunene-by/linkdrop)
