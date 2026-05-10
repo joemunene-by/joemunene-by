@@ -5,7 +5,7 @@
 I build security tools, full-stack platforms, and AI systems from first principles.<br>
 Not wrappers. Not tutorials. Production code that solves real problems.
 
-Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** (an 81M parameter cybersecurity language model trained from scratch) and **[ghostloop](https://github.com/joemunene-by/ghostloop)** (the embodied-AI sibling: a tool-using agent runtime + fail-closed safety pipeline + sim-first execution harness for robotics).
+Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** (an 81M parameter cybersecurity language model trained from scratch) and **[ghostloop](https://github.com/joemunene-by/ghostloop)** v1.0.0 (the embodied-AI sibling: a tool-using agent runtime + fail-closed safety pipeline + sim-first execution + statistically-rigorous bench harness + post-hoc analysis layer for robotics).
 
 <br>
 
@@ -79,10 +79,14 @@ My work sits at the intersection of offensive security, full-stack engineering, 
 ![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=flat-square&logo=trpc&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-FastAPI_streaming-000000?style=flat-square)
 ![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Better Auth](https://img.shields.io/badge/Better_Auth-000000?style=flat-square)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Bearer Auth](https://img.shields.io/badge/Bearer_Auth-pluggable_strategies-000000?style=flat-square)
+![Rate Limiting](https://img.shields.io/badge/Rate_Limiting-sliding_window-000000?style=flat-square)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 ![Resend](https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white)
@@ -98,9 +102,49 @@ My work sits at the intersection of offensive security, full-stack engineering, 
 ![LanceDB](https://img.shields.io/badge/LanceDB-Vector_Search-3F51B5?style=flat-square)
 ![BGE Embeddings](https://img.shields.io/badge/BGE_Embeddings-FFD21E?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-Anthropic-D4A574?style=flat-square)
+![FastMCP](https://img.shields.io/badge/FastMCP-D4A574?style=flat-square)
 ![Anthropic SDK](https://img.shields.io/badge/Anthropic_SDK-D4A574?style=flat-square&logo=anthropic&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D4A574?style=flat-square&logo=anthropic&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+![LLM-as-Judge](https://img.shields.io/badge/LLM--as--Judge-rubric_scoring-D4A574?style=flat-square)
+![Counterfactual Replay](https://img.shields.io/badge/Counterfactual_Replay-shadow_mode-6C9CFF?style=flat-square)
+![Causal Attribution](https://img.shields.io/badge/Causal_Attribution-leave--one--out-6C9CFF?style=flat-square)
+![Property Mining](https://img.shields.io/badge/Property_Mining-auto--invariants-6C9CFF?style=flat-square)
+![Adversarial Search](https://img.shields.io/badge/Adversarial_Search-CMA--ES-6C9CFF?style=flat-square)
+
+**Reinforcement Learning**<br>
+![Gymnasium](https://img.shields.io/badge/Gymnasium-Farama-0081A5?style=flat-square)
+![Constrained MDP](https://img.shields.io/badge/Constrained_MDP-Lagrangian-0081A5?style=flat-square)
+![Safe RL](https://img.shields.io/badge/Safe_RL-policy_gates-0081A5?style=flat-square)
+![HER](https://img.shields.io/badge/Hindsight_Replay-Andrychowicz_2017-0081A5?style=flat-square)
+![PPO](https://img.shields.io/badge/PPO_%2F_SAC-trainer_compat-0081A5?style=flat-square)
+![Reward Shaping](https://img.shields.io/badge/Reward_Shaping-declarative_DSL-0081A5?style=flat-square)
+
+**Robotics & Embodied AI**<br>
+![MuJoCo](https://img.shields.io/badge/MuJoCo-DeepMind-FF6633?style=flat-square)
+![PyBullet](https://img.shields.io/badge/PyBullet-Bullet_Physics-FF6633?style=flat-square)
+![ROS 2](https://img.shields.io/badge/ROS_2-rclpy-22314E?style=flat-square&logo=ros&logoColor=white)
+![URDF](https://img.shields.io/badge/URDF-XML_robot_spec-22314E?style=flat-square)
+![Menagerie](https://img.shields.io/badge/MuJoCo_Menagerie-Franka_%2F_UR5e_%2F_Spot-FF6633?style=flat-square)
+![VLA Models](https://img.shields.io/badge/VLA-OpenVLA_%2F_%CF%800_%2F_RT--2-14B8A6?style=flat-square)
+![Sim-to-Real](https://img.shields.io/badge/Sim2Real-domain_randomization-14B8A6?style=flat-square)
+![Action Smoothing](https://img.shields.io/badge/Action_Smoothing-velocity_%2F_acceleration_limits-14B8A6?style=flat-square)
+![SDF](https://img.shields.io/badge/SDF-convex_polytopes-14B8A6?style=flat-square)
+![Skill Graph](https://img.shields.io/badge/Skill_Graph-DAG_with_prereqs-14B8A6?style=flat-square)
+![Mission DAG](https://img.shields.io/badge/Mission_DAG-Kahn_topology-14B8A6?style=flat-square)
+
+**Computer Vision**<br>
+![RGB-D Fusion](https://img.shields.io/badge/RGB--D_Fusion-deproject_depth-9C27B0?style=flat-square)
+![Point Clouds](https://img.shields.io/badge/Point_Clouds-Inigo_Quilez_SDF-9C27B0?style=flat-square)
+![Object Detection](https://img.shields.io/badge/Object_Detection-bbox_%2B_3D_centroid-9C27B0?style=flat-square)
+![Camera Calibration](https://img.shields.io/badge/Camera_Intrinsics-pinhole_model-9C27B0?style=flat-square)
+
+**Formal Methods & Verification**<br>
+![Signal Temporal Logic](https://img.shields.io/badge/Signal_Temporal_Logic-Always_%2F_Eventually_%2F_Until-2D2D2D?style=flat-square)
+![Property Engine](https://img.shields.io/badge/Property_Engine-declarative_invariants-2D2D2D?style=flat-square)
+![Wilson CI](https://img.shields.io/badge/Wilson_95%25_CI-binomial_proportions-2D2D2D?style=flat-square)
+![McNemar](https://img.shields.io/badge/McNemar_Exact-paired_comparison-2D2D2D?style=flat-square)
+![Cohen's h](https://img.shields.io/badge/Cohen's_h-effect_size-2D2D2D?style=flat-square)
 
 **Cross-Platform Desktop**<br>
 ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
@@ -141,6 +185,9 @@ My work sits at the intersection of offensive security, full-stack engineering, 
 **Observability & Quality**<br>
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 ![PostHog](https://img.shields.io/badge/PostHog-1D4AFF?style=flat-square&logo=posthog&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-spans_%26_traces-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-%2Fmetrics-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![kube probes](https://img.shields.io/badge/kube_probes-livez_%2F_readyz-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
@@ -170,7 +217,7 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 
 ### Latest drops
 
-**[ghostloop v0.3.0](https://github.com/joemunene-by/ghostloop)** — The agent loop, embodied. Tool-using runtime + fail-closed safety pipeline + sim-first execution harness for embodied AI / robotics. Sister project to GhostLM. Three backends (Mock / MuJoCo / PyBullet), MuJoCo Menagerie loader (Franka / UR5e / Stretch / Allegro / Spot / Aloha), LLMPolicy adapter for any OpenAI-compatible endpoint, bench harness with Wilson 95% CIs + McNemar exact p + Cohen's h, five policy gates, trace replay, CLI. 93 tests green, zero runtime deps in core.
+**[ghostloop v1.0.0](https://github.com/joemunene-by/ghostloop)** — The agent loop, embodied. Production-stable in 11 releases. Six backends (Mock / MuJoCo / PyBullet / Gymnasium / ROS 2 / RandomizedBackend), 12 policy gates, MuJoCo Menagerie loader (Franka / UR5e / Stretch / Allegro / Spot / Aloha), LLMPolicy + VLAPolicy adapters, bench harness with Wilson CI + McNemar + Cohen's h + Sim2Real transfer-gap + adversarial fuzzing (random / grid / CMA-ES), STL temporal properties + auto-mining, counterfactual trace replay, causal failure attribution, LLM-as-judge, skill graph, hindsight relabeling, energy ledger, cross-embodiment morphology registry, RGB-D fusion + lightweight object detection, VLA-on-MuJoCo benchmark vs OpenVLA / π0 / RT-2 / Octo / Diffusion Policy / ACT, production fleet dashboard (auth + rate limit + alarms + Prometheus). 314 tests green.
 
 **[secure-mcp](https://github.com/joemunene-by/secure-mcp)** — MCP server exposing security tools to AI agents with policy gates, subprocess sandboxing, and audit trails. Fail-closed by default.
 
