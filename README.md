@@ -5,7 +5,7 @@
 I build security tools, full-stack platforms, and AI systems from first principles.<br>
 Not wrappers. Not tutorials. Production code that solves real problems.
 
-Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** (an 81M parameter cybersecurity language model trained from scratch) and **[ghostloop](https://github.com/joemunene-by/ghostloop)** v1.0.0 (the embodied-AI sibling: a tool-using agent runtime + fail-closed safety pipeline + sim-first execution + statistically-rigorous bench harness + post-hoc analysis layer for robotics).
+Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** (an 81M parameter cybersecurity language model trained from scratch) and **[ghostloop](https://github.com/joemunene-by/ghostloop)** v1.0.3 (the embodied-AI sibling: a tool-using agent runtime + fail-closed safety pipeline + sim-first execution + statistically-rigorous bench harness + post-hoc analysis layer for robotics) — now `pip install ghostloop` with a [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo).
 
 <br>
 
@@ -13,6 +13,10 @@ Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** (an 81
 [![Complex Developers](https://img.shields.io/badge/Studio-Complex_Developers-C4A1FF?style=for-the-badge&logo=react&logoColor=white)](https://github.com/complexdevelopers)
 [![Email](https://img.shields.io/badge/Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joemunene984@gmail.com)
 [![GitHub](https://img.shields.io/badge/Follow-0C0E14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joemunene-by)
+
+[![ghostloop on PyPI](https://img.shields.io/pypi/v/ghostloop?label=ghostloop&color=14B8A6)](https://pypi.org/project/ghostloop/)
+[![Live demo](https://img.shields.io/badge/🤗%20live%20demo-Ghostgim%2Fghostloop--demo-FFD21E)](https://huggingface.co/spaces/Ghostgim/ghostloop-demo)
+[![GhostLM on HuggingFace](https://img.shields.io/badge/🤗%20GhostLM-Ghostgim%2FGhostLM--v0.9-FFD21E)](https://huggingface.co/Ghostgim/GhostLM-v0.9-experimental)
 
 </div>
 
@@ -217,7 +221,7 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 
 ### Latest drops
 
-**[ghostloop v1.0.0](https://github.com/joemunene-by/ghostloop)** — The agent loop, embodied. Production-stable in 11 releases. Six backends (Mock / MuJoCo / PyBullet / Gymnasium / ROS 2 / RandomizedBackend), 12 policy gates, MuJoCo Menagerie loader (Franka / UR5e / Stretch / Allegro / Spot / Aloha), LLMPolicy + VLAPolicy adapters, bench harness with Wilson CI + McNemar + Cohen's h + Sim2Real transfer-gap + adversarial fuzzing (random / grid / CMA-ES), STL temporal properties + auto-mining, counterfactual trace replay, causal failure attribution, LLM-as-judge, skill graph, hindsight relabeling, energy ledger, cross-embodiment morphology registry, RGB-D fusion + lightweight object detection, VLA-on-MuJoCo benchmark vs OpenVLA / π0 / RT-2 / Octo / Diffusion Policy / ACT, production fleet dashboard (auth + rate limit + alarms + Prometheus). 314 tests green.
+**[ghostloop v1.0.3](https://github.com/joemunene-by/ghostloop)** — The agent loop, embodied. Production-stable in 14 releases, **`pip install ghostloop`** on PyPI, **[live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo)**, full GitHub Actions CI/CD (PyPI Trusted Publishing OIDC + auto-create release pages + auto-redeploy Space). Six backends (Mock / MuJoCo / PyBullet / Gymnasium / ROS 2 / RandomizedBackend), 12 policy gates, MuJoCo Menagerie loader (Franka / UR5e / Stretch / Allegro / Spot / Aloha), LLMPolicy + VLAPolicy adapters, bench harness with Wilson CI + McNemar + Cohen's h + Sim2Real transfer-gap + adversarial fuzzing (random / grid / CMA-ES), STL temporal properties + auto-mining, counterfactual trace replay, causal failure attribution, LLM-as-judge, skill graph, hindsight relabeling, energy ledger, cross-embodiment morphology registry, RGB-D fusion + lightweight object detection, VLA-on-MuJoCo benchmark vs OpenVLA / π0 / RT-2 / Octo / Diffusion Policy / ACT, production fleet dashboard (auth + rate limit + alarms + Prometheus), distillation pipeline, real-time deadline scheduler, live policy intervention (pause / resume / hot-swap / e-stop), system-identification calibration. **359 tests green.**
 
 **[secure-mcp](https://github.com/joemunene-by/secure-mcp)** — MCP server exposing security tools to AI agents with policy gates, subprocess sandboxing, and audit trails. Fail-closed by default.
 
