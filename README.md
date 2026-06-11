@@ -34,22 +34,16 @@ My work sits at the intersection of offensive security, full-stack engineering, 
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-### [pytorch/ignite #3741](https://github.com/pytorch/ignite/pull/3741)
-Replaced the naive `E[X²] − E[X]²` variance formula in `PearsonCorrelation` with **Welford's online algorithm** plus a parallel distributed merge. Fixes catastrophic cancellation in float32 (the metric was returning 0.89 instead of 0.99 for `mean=1e6` data). Numerically stable across single-process and DDP.
-
-</td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### [AutoGPT #12805](https://github.com/Significant-Gravitas/AutoGPT/pull/12805)
 **Merged.** Fixed agent name preservation in `AgentExecutor` node titles after page reload in the visual builder frontend. Small fix, surfaces in the user flow every time you reopen a saved graph, so the regression was high-visibility once introduced.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### [OWASP CheatSheetSeries #2111](https://github.com/OWASP/CheatSheetSeries/pull/2111)
-Authored the **AI Model Supply Chain Security** cheat sheet (now part of the OWASP corpus, 92 sheets). Covers unsafe deserialization (pickle / `.pt` / `.pkl` code execution, safetensors and ONNX alternatives), model provenance verification, artifact scanning, training pipeline hardening, and deployed model monitoring with MBOM and lineage tracking. Cites real attacks (HuggingFace pickle malware, PyTorch `torchtriton` dependency confusion).
+### [pytorch/ignite #3741](https://github.com/pytorch/ignite/pull/3741)
+**Open, under review.** Replaces the naive `E[X²] − E[X]²` variance formula in `PearsonCorrelation` with **Welford's online algorithm** plus a parallel distributed merge. Fixes catastrophic cancellation in float32 (the metric was returning 0.89 instead of 0.99 for `mean=1e6` data). Numerically stable across single-process and DDP.
 
 </td>
 </tr>
@@ -108,6 +102,14 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 </td>
 </tr>
 </table>
+
+<br>
+
+## `> man joe`
+
+Technical writing lives in **[joemunene-by/writing](https://github.com/joemunene-by/writing)**.
+
+- **[AI Model Supply Chain Security](https://github.com/joemunene-by/writing/blob/main/ai-model-supply-chain-security.md)** — architectural guidance on serialization risks in model artifacts (pickle / `.pt` code execution, safetensors and ONNX alternatives), provenance verification, artifact scanning, and Model Bills of Materials. Originally proposed to the OWASP Cheat Sheet Series ([PR #2111](https://github.com/OWASP/CheatSheetSeries/pull/2111)) and revised through maintainer review.
 
 <br>
 
@@ -234,7 +236,7 @@ If you're building something that matters, I'd like to hear about it.
 
 <br>
 
-**Nairobi, Kenya** · Founder, Complex Developers · Open to opportunities · [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
+**Nairobi, Kenya** · Founder, Complex Developers · **Available for contract work** — backend builds, security reviews, API hardening · [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
 
 <br>
 
