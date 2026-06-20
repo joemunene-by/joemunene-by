@@ -26,7 +26,7 @@ Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** — an
 
 I'm a Computer Science student at **Moi University** (Nairobi, Kenya) and the founder of **[Complex Developers](https://github.com/complexdevelopers)**, a studio that ships web platforms, custom tooling, and AI adjacent products. The [company site + CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js 15, Prisma, and Postgres.
 
-My work sits at the intersection of offensive security, full-stack engineering, applied AI, and systems programming. 34+ open source projects, 320+ commits, 165,000+ lines of code, and counting. The shortest way to prove what you can engineer is to show working code, so that's what this profile is.
+My work sits at the intersection of offensive security, full-stack engineering, applied AI, and systems programming. 45+ open source projects, 340+ commits, 190,000+ lines of code, and counting. The shortest way to prove what you can engineer is to show working code, so that's what this profile is.
 
 <br>
 
@@ -73,6 +73,8 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 
 **Offensive tooling**: concurrent TCP port scanner, packet-level traffic analyzer, vulnerability scanner, hash-cracking framework, MAC rotator, metadata scrubber
 
+**The ghost security suite**: eleven production CLI tools spanning recon, web and mobile scanning, ML intrusion detection, malware triage, supply chain, cloud posture, and key management (listed below)
+
 **Full-stack platforms**: Complex Developers CRM (Next.js 15 + Prisma + Postgres), ChartSentinel (trading SaaS with Stripe + PostHog + Sentry), High-End CRM, ai-coding-assistant
 
 </td>
@@ -101,6 +103,27 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 
 </td>
 </tr>
+</table>
+
+<br>
+
+## `> ls /opt/ghost-suite`
+
+Eleven production CLI security tools, shipped as one coherent suite. Every one is installable, test covered, and green on GitHub Actions CI across Python 3.11 and 3.12. 489 passing tests in total, console plus JSON plus SARIF output for CI gating, and authorized-use framing throughout.
+
+<table>
+<tr><th align="left">Tool</th><th align="left">Domain</th><th align="left">What it does</th></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostrecon">ghostrecon</a></td><td>Offensive, OSINT</td><td>Passive recon framework: cert transparency, DNS, Wayback, entity graph, HTML and JSON reports</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostmap">ghostmap</a></td><td>Offensive, AppSec</td><td>Web vulnerability scanner: auth-aware crawler plus XSS and SQLi injection engine, SARIF output</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostpwn">ghostpwn</a></td><td>Offensive, Orchestration</td><td>Pentest workflow engine: YAML stages, dependency DAG, parallel execution, consolidated report</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostscope">ghostscope</a></td><td>Defensive, ML</td><td>AI intrusion detection: IsolationForest and PyTorch autoencoder on flow features, explainable alerts</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostbox">ghostbox</a></td><td>Defensive, Malware</td><td>Static malware sandbox: PE and ELF parsing, entropy and packer heuristics, IOC extraction, YARA, threat score</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostdlp">ghostdlp</a></td><td>Defensive, Data</td><td>Data-leak prevention and PII classifier: 16 validated detectors (Luhn, IBAN, ABA, entropy), masking and redaction</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostsbom">ghostsbom</a></td><td>Supply chain</td><td>Supply-chain analyzer: CycloneDX SBOM, OSV.dev CVE scan, typosquat and maintainer-risk signals</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostchain">ghostchain</a></td><td>Web3, AppSec</td><td>Solidity static auditor: 10 SWC-mapped detectors, console, JSON, and SARIF for code scanning</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostmobile">ghostmobile</a></td><td>Mobile, AppSec</td><td>APK and IPA static analyzer: dependency-free binary AndroidManifest decoder, 14 platform checks</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostcloud">ghostcloud</a></td><td>Cloud, CSPM</td><td>Multi-cloud posture scanner: 17 AWS, GCP, and Azure misconfiguration checks with remediation</td></tr>
+<tr><td><a href="https://github.com/joemunene-by/ghostvault">ghostvault</a></td><td>Cryptography, KMS</td><td>Key management system: DEK and KEK envelope encryption (AES-256-GCM, scrypt), rotation, AAD binding, audit log</td></tr>
 </table>
 
 <br>
