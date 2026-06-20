@@ -26,7 +26,7 @@ Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** — an
 
 I'm a Computer Science student at **Moi University** (Nairobi, Kenya) and the founder of **[Complex Developers](https://github.com/complexdevelopers)**, a studio that ships web platforms, custom tooling, and AI adjacent products. The [company site + CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js 15, Prisma, and Postgres.
 
-My work sits at the intersection of offensive security, full-stack engineering, applied AI, and systems programming. 45+ open source projects, 340+ commits, 190,000+ lines of code, and counting. The shortest way to prove what you can engineer is to show working code, so that's what this profile is.
+My work sits at the intersection of offensive security, full-stack engineering, applied AI, and systems programming. 50+ open source projects, 1,000+ commits, 4,154,000+ lines of code, and counting. The shortest way to prove what you can engineer is to show working code, so that's what this profile is.
 
 <br>
 
