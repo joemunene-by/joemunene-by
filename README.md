@@ -2,10 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0E14,50:6C9CFF,100:C4A1FF&height=200&section=header&text=Joe%20Munene&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%E2%80%A2%20Cybersecurity%20Researcher%20%E2%80%A2%20Founder%2C%20Complex%20Developers&descSize=15&descAlignY=55&descColor=8A8FA8&animation=fadeIn" width="100%" />
 
-I build security tools, full-stack platforms, and AI systems from first principles.<br>
-Not wrappers. Not tutorials. Production code that solves real problems.
+I build security-focused AI systems from the model up: language models trained from scratch,<br>
+the agent runtimes that make them safe to deploy, and production security tooling around them.
 
-Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** — an 81M-parameter cybersecurity language model trained from scratch — and the **[ghostloop](https://github.com/joemunene-by/ghostloop)** family: an embodied-AI agent runtime with a fail-closed safety pipeline (`pip install ghostloop`), its [Next.js control plane](https://github.com/joemunene-by/ghostloop-ui), and a [Tauri desktop app](https://github.com/joemunene-by/ghostloop-desktop). Everything in one place at the [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo).
+Founder of **[Complex Developers](https://github.com/complexdevelopers)**. Currently building **[GhostLM](https://github.com/joemunene-by/GhostLM)**, an 81M-parameter cybersecurity language model trained from scratch in PyTorch, and **[ghostloop](https://github.com/joemunene-by/ghostloop)**, a fail-closed safety runtime for embodied agents, published on PyPI (`pip install ghostloop`) with a [Next.js control plane](https://github.com/joemunene-by/ghostloop-ui), a [Tauri desktop app](https://github.com/joemunene-by/ghostloop-desktop), and a [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo).
 
 <br>
 
@@ -24,9 +24,9 @@ Currently shipping **[GhostLM](https://github.com/joemunene-by/GhostLM)** — an
 
 ## `> whoami`
 
-I'm a Computer Science student at **Moi University** (Nairobi, Kenya) and the founder of **[Complex Developers](https://github.com/complexdevelopers)**, a studio that ships web platforms, custom tooling, and AI adjacent products. The [company site + CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js 15, Prisma, and Postgres.
+I'm Joe Munene, founder of **[Complex Developers](https://github.com/complexdevelopers)**, building from Nairobi, Kenya. The throughline across what I ship is systems that stay auditable under adversarial conditions, from model internals to agent runtime. The [studio's platform and CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js 15, Prisma, and Postgres.
 
-My work sits at the intersection of offensive security, full-stack engineering, applied AI, and systems programming. 50+ open source projects, 1,000+ commits, 4,154,000+ lines of code, and counting. The shortest way to prove what you can engineer is to show working code, so that's what this profile is.
+I study Computer Science at **Moi University**. In parallel I have trained a language model from scratch, published a safety runtime to PyPI, and merged work upstream into AutoGPT. Roughly 785,000 lines of first-party code across 50+ repositories. The shortest way to prove what you can engineer is to show working code, so that is what this profile is.
 
 <br>
 
@@ -37,7 +37,7 @@ My work sits at the intersection of offensive security, full-stack engineering, 
 <td width="50%" valign="top">
 
 ### [AutoGPT #12805](https://github.com/Significant-Gravitas/AutoGPT/pull/12805)
-**Merged.** Fixed agent name preservation in `AgentExecutor` node titles after page reload in the visual builder frontend. Small fix, surfaces in the user flow every time you reopen a saved graph, so the regression was high-visibility once introduced.
+**Merged** into Significant-Gravitas/AutoGPT, one of the most-starred AI projects on GitHub. Fixed agent name preservation in `AgentExecutor` node titles after page reload in the visual builder frontend. Small surface, high visibility: it surfaces every time a user reopens a saved graph.
 
 </td>
 <td width="50%" valign="top">
@@ -82,7 +82,7 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 
 ### Latest drops
 
-**[ghostloop v1.0.3](https://github.com/joemunene-by/ghostloop)** — the agent loop, embodied. `pip install ghostloop`, 14 releases, [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo), full CI/CD with PyPI Trusted Publishing. Six simulation backends (MuJoCo / PyBullet / Gymnasium / ROS 2), 12 fail-closed policy gates, LLM + VLA policy adapters, and a bench harness with Wilson CI, McNemar, adversarial fuzzing (CMA-ES), STL temporal properties, counterfactual replay, and causal failure attribution. Production fleet dashboard with auth, rate limiting, alarms, and Prometheus. **359 tests green.**
+**[ghostloop v1.0.3](https://github.com/joemunene-by/ghostloop)** — the agent loop, embodied. `pip install ghostloop` (v1.0.3 on PyPI), [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo), full CI/CD with PyPI Trusted Publishing. Six simulation backends (MuJoCo / PyBullet / Gymnasium / ROS 2), 12 fail-closed policy gates, LLM + VLA policy adapters, and a bench harness with Wilson CI, McNemar, adversarial fuzzing (CMA-ES), STL temporal properties, counterfactual replay, and causal failure attribution. Production fleet dashboard with auth, rate limiting, alarms, and Prometheus. **359 tests green.**
 
 **[ghostloop-ui](https://github.com/joemunene-by/ghostloop-ui)** — Next.js 15 + React 19 + Tailwind 4 control plane, live at [ghostloop-ui.vercel.app](https://ghostloop-ui.vercel.app). Fleet view, alarm tray, episode timeline, per-counter Prometheus metrics, and a profile-aware gamepad mapper (drone / mobile base / quadruped / arm / humanoid) built for non-coders. Demo-mode fallback keeps the deploy interactive with no backend configured.
 
@@ -254,16 +254,11 @@ Technical writing lives in **[joemunene-by/writing](https://github.com/joemunene
 
 <div align="center">
 
-I'm always open to collaborating on security research, open source tooling, or interesting engineering problems.<br>
-If you're building something that matters, I'd like to hear about it.
+Next: ghost-base, the ~360M-parameter successor to GhostLM, on rented GPU. I take on select work in backend systems, security reviews, and API hardening.
 
 <br>
 
-**Nairobi, Kenya** · Founder, Complex Developers · **Available for contract work** — backend builds, security reviews, API hardening · [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=joemunene-by&color=6C9CFF&style=flat-square&label=Profile+Views)
+**Joe Munene** · Founder, Complex Developers · Nairobi, Kenya · [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0E14,50:6C9CFF,100:C4A1FF&height=100&section=footer" width="100%" />
 
