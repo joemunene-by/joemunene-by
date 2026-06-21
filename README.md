@@ -1,22 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0E14,50:6C9CFF,100:C4A1FF&height=200&section=header&text=Joe%20Munene&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%E2%80%A2%20Cybersecurity%20Researcher%20%E2%80%A2%20Founder%2C%20Complex%20Developers&descSize=15&descAlignY=55&descColor=8A8FA8&animation=fadeIn" width="100%" />
+# Joe Munene
+
+### Founder, [Complex Developers](https://github.com/complexdevelopers)
 
 I build security-focused AI systems from the model up: language models trained from scratch,<br>
 the agent runtimes that make them safe to deploy, and production security tooling around them.
 
-Founder of **[Complex Developers](https://github.com/complexdevelopers)**. Currently building **[GhostLM](https://github.com/joemunene-by/GhostLM)**, an 81M-parameter cybersecurity language model trained from scratch in PyTorch, and **[ghostloop](https://github.com/joemunene-by/ghostloop)**, a fail-closed safety runtime for embodied agents, published on PyPI (`pip install ghostloop`) with a [Next.js control plane](https://github.com/joemunene-by/ghostloop-ui), a [Tauri desktop app](https://github.com/joemunene-by/ghostloop-desktop), and a [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo).
+Currently building **[GhostLM](https://github.com/joemunene-by/GhostLM)**, an 81M-parameter cybersecurity language model trained from scratch in PyTorch, and **[ghostloop](https://github.com/joemunene-by/ghostloop)**, a fail-closed safety runtime for embodied agents, published on PyPI (`pip install ghostloop`) with a [Next.js control plane](https://github.com/joemunene-by/ghostloop-ui), a [Tauri desktop app](https://github.com/joemunene-by/ghostloop-desktop), and a [live HuggingFace demo](https://huggingface.co/spaces/Ghostgim/ghostloop-demo).
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-6C9CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-peach-eta-42.vercel.app)
-[![Complex Developers](https://img.shields.io/badge/Studio-Complex_Developers-C4A1FF?style=for-the-badge&logo=react&logoColor=white)](https://github.com/complexdevelopers)
-[![Email](https://img.shields.io/badge/Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joemunene984@gmail.com)
-[![GitHub](https://img.shields.io/badge/Follow-0C0E14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joemunene-by)
-
-[![ghostloop on PyPI](https://img.shields.io/pypi/v/ghostloop?label=ghostloop&color=14B8A6)](https://pypi.org/project/ghostloop/)
-[![Live demo](https://img.shields.io/badge/🤗%20live%20demo-Ghostgim%2Fghostloop--demo-FFD21E)](https://huggingface.co/spaces/Ghostgim/ghostloop-demo)
-[![GhostLM on HuggingFace](https://img.shields.io/badge/🤗%20GhostLM-Ghostgim%2FGhostLM--v0.9-FFD21E)](https://huggingface.co/Ghostgim/GhostLM-v0.9-experimental)
+[![ghostloop on PyPI](https://img.shields.io/pypi/v/ghostloop?label=ghostloop%20on%20PyPI&color=14B8A6&style=flat-square)](https://pypi.org/project/ghostloop/)
+[![GhostLM on HuggingFace](https://img.shields.io/badge/GhostLM-HuggingFace-FFD21E?style=flat-square)](https://huggingface.co/Ghostgim/GhostLM-v0.9-experimental)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6C9CFF?style=flat-square)](https://my-portfolio-peach-eta-42.vercel.app)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square)](mailto:joemunene984@gmail.com)
 
 </div>
 
@@ -60,10 +58,7 @@ I study Computer Science at **Moi University**. In parallel I have trained a lan
 ### Currently shipping: GhostLM
 An open source cybersecurity language model built from scratch in PyTorch. 81M parameter decoder-only transformer (RoPE, SwiGLU, RMSNorm) trained on a 422M token multi-domain corpus across 27 sources: cybersec writeups, NVD CVEs, MITRE / CWE / OWASP, NIST SP 800, FineWeb-Edu, open-web-math, and a 105 repo open source code pull spanning 15 languages.
 
-Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking OpenAI / Anthropic / Gemini / Ollama wire formats, an MCP server, and GhostBench (a packaged eval suite with Wilson 95% CIs and McNemar paired comparisons across 14 differentiation bets). 312 tests green.
-
-[![GhostLM](https://img.shields.io/badge/View_Repo-GhostLM_v0.9.33-6C9CFF?style=flat-square&logo=github)](https://github.com/joemunene-by/GhostLM)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Ghostgim/GhostLM-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Ghostgim/GhostLM-v0.9-experimental)
+Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking OpenAI / Anthropic / Gemini / Ollama wire formats, an MCP server, and GhostBench (a packaged eval suite with Wilson 95% CIs and McNemar paired comparisons across 14 differentiation bets). 312 tests green. [View the repo](https://github.com/joemunene-by/GhostLM).
 
 ### What I ship
 
@@ -93,13 +88,6 @@ Ships GhostAgent (a tool-using runtime), a multi-vendor HTTP server speaking Ope
 **[CyberBench](https://github.com/joemunene-by/cyberbench)** — Open, reproducible benchmark for evaluating LLMs on cybersecurity reasoning. YAML tasks, pluggable backends, ranked leaderboard.
 
 **[linkdrop v0.7.1](https://github.com/joemunene-by/linkdrop)** — Cross-platform Tauri + Rust desktop app bridging iPhone to Linux for photos, files, notifications, screen mirroring. Daemon-backed pymobiledevice3 bridge, CI-built .deb / .AppImage.
-
-[![ghostloop](https://img.shields.io/badge/View-ghostloop-14B8A6?style=flat-square&logo=github)](https://github.com/joemunene-by/ghostloop)
-[![ghostloop-ui](https://img.shields.io/badge/View-ghostloop--ui-14B8A6?style=flat-square&logo=vercel)](https://github.com/joemunene-by/ghostloop-ui)
-[![ghostloop-desktop](https://img.shields.io/badge/View-ghostloop--desktop-14B8A6?style=flat-square&logo=tauri)](https://github.com/joemunene-by/ghostloop-desktop)
-[![secure-mcp](https://img.shields.io/badge/View-secure--mcp-C4A1FF?style=flat-square&logo=github)](https://github.com/joemunene-by/secure-mcp)
-[![CyberBench](https://img.shields.io/badge/View-CyberBench-6C9CFF?style=flat-square&logo=github)](https://github.com/joemunene-by/cyberbench)
-[![linkdrop](https://img.shields.io/badge/View-linkdrop-24C8DB?style=flat-square&logo=github)](https://github.com/joemunene-by/linkdrop)
 
 </td>
 </tr>
@@ -138,128 +126,18 @@ Technical writing lives in **[joemunene-by/writing](https://github.com/joemunene
 
 ## `> cat /etc/skills`
 
-<div align="center">
+**Systems and AI.** Python and PyTorch, with transformers written from scratch (no framework abstractions): training, tokenization, and evaluation with proper statistics. Rust, TypeScript, and C. MCP servers and multi-vendor LLM serving.
 
-**Languages**<br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+**Security.** Offensive (recon, web and mobile scanning, exploitation tooling) and defensive (intrusion detection, malware triage, SIEM, memory forensics, cloud posture, key management). YARA, Sigma, STIX, CIS benchmarks.
 
-**Frontend, Mobile & Desktop**<br>
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white)
+**Product.** Full-stack web (Next.js, React, Tailwind, Postgres, Prisma), cross-platform desktop (Tauri, Rust), and mobile (React Native, shipped to the Google Play Store).
 
-**Backend & Data**<br>
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=flat-square&logo=trpc&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-
-**AI / ML**<br>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace_Hub-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Transformers](https://img.shields.io/badge/Transformers-from_scratch-EE4C2C?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![MLX](https://img.shields.io/badge/MLX-Apple_Silicon-000000?style=flat-square&logo=apple&logoColor=white)
-![LanceDB](https://img.shields.io/badge/LanceDB-Vector_Search-3F51B5?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-Anthropic-D4A574?style=flat-square)
-![FastMCP](https://img.shields.io/badge/FastMCP-D4A574?style=flat-square)
-![Anthropic SDK](https://img.shields.io/badge/Anthropic_SDK-D4A574?style=flat-square&logo=anthropic&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
-
-**Robotics, RL & Simulation**<br>
-![MuJoCo](https://img.shields.io/badge/MuJoCo-DeepMind-FF6633?style=flat-square)
-![PyBullet](https://img.shields.io/badge/PyBullet-Bullet_Physics-FF6633?style=flat-square)
-![ROS 2](https://img.shields.io/badge/ROS_2-rclpy-22314E?style=flat-square&logo=ros&logoColor=white)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-Farama-0081A5?style=flat-square)
-![Safe RL](https://img.shields.io/badge/Safe_RL-policy_gates-0081A5?style=flat-square)
-![PPO](https://img.shields.io/badge/PPO_%2F_SAC-trainer_compat-0081A5?style=flat-square)
-![VLA Models](https://img.shields.io/badge/VLA-OpenVLA_%2F_%CF%800_%2F_RT--2-14B8A6?style=flat-square)
-![Sim-to-Real](https://img.shields.io/badge/Sim2Real-domain_randomization-14B8A6?style=flat-square)
-
-**Security**<br>
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square&logo=nmap&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=hackthebox&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Hashcat](https://img.shields.io/badge/Hashcat-2D2D2D?style=flat-square)
-![Scapy](https://img.shields.io/badge/Scapy-Packet_Crafting-339933?style=flat-square)
-![YARA](https://img.shields.io/badge/YARA-00A859?style=flat-square)
-![Volatility](https://img.shields.io/badge/Volatility-2D2D2D?style=flat-square)
-![Sigma](https://img.shields.io/badge/Sigma_Rules-EE6600?style=flat-square)
-![STIX](https://img.shields.io/badge/STIX_2.1-0066CC?style=flat-square)
-![MISP](https://img.shields.io/badge/MISP-3092BD?style=flat-square)
-![CIS Benchmarks](https://img.shields.io/badge/CIS_Benchmarks-C8102E?style=flat-square)
-![CTF](https://img.shields.io/badge/CTF-Competitor-9FEF00?style=flat-square)
-
-**DevOps, Observability & Quality**<br>
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Turbo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-spans_%26_traces-000000?style=flat-square&logo=opentelemetry&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-%2Fmetrics-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![PostHog](https://img.shields.io/badge/PostHog-1D4AFF?style=flat-square&logo=posthog&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-
-</div>
+**Infrastructure.** Docker, Kubernetes, Terraform, GitHub Actions, Prometheus, and CI/CD with PyPI trusted publishing.
 
 <br>
 
-## `> git log --oneline`
+## `> tail -f`
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=joemunene-by&show_icons=true&hide_border=true&bg_color=0C0E14&title_color=6C9CFF&text_color=8A8FA8&icon_color=C4A1FF&ring_color=6C9CFF" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joemunene-by&layout=compact&hide_border=true&bg_color=0C0E14&title_color=6C9CFF&text_color=8A8FA8" height="165" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=joemunene-by&bg_color=0C0E14&color=8A8FA8&line=6C9CFF&point=C4A1FF&area=true&area_color=6C9CFF&hide_border=true" width="95%" />
-
-</div>
-
-<br>
-
-## `> cat README.md | tail -n 4`
-
-<div align="center">
-
-Next: ghost-base, the ~360M-parameter successor to GhostLM, on rented GPU. I take on select work in backend systems, security reviews, and API hardening.
-
-<br>
+Next: ghost-base, the ~360M-parameter successor to GhostLM, training on rented GPU. I take on select work in backend systems, security reviews, and API hardening.
 
 **Joe Munene** · Founder, Complex Developers · Nairobi, Kenya · [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0E14,50:6C9CFF,100:C4A1FF&height=100&section=footer" width="100%" />
-
-</div>
