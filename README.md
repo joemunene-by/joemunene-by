@@ -24,7 +24,7 @@ Currently building **[GhostLM](https://github.com/joemunene-by/GhostLM)**, an 81
 
 I'm Joe Munene, founder of **[Complex Developers](https://github.com/complexdevelopers)**, building from Nairobi, Kenya. The throughline across what I ship is systems that stay auditable under adversarial conditions, from model internals to agent runtime. The [studio's platform and CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js 15, Prisma, and Postgres.
 
-I study Computer Science at **Moi University**. In parallel I have trained a language model from scratch, published a safety runtime to PyPI, and merged work upstream into AutoGPT. Roughly 785,000 lines of first-party code across 50+ repositories. The shortest way to prove what you can engineer is to show working code, so that is what this profile is.
+I study Computer Science at **Moi University**. In parallel I have trained a language model from scratch, published a safety runtime to PyPI, and merged work upstream into AutoGPT. The shortest way to prove what you can engineer is to show working code, so that is what this profile is.
 
 <br>
 
