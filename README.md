@@ -16,7 +16,7 @@ I build security-focused AI systems end to end: language models trained from scr
 
 ## About
 
-I am the founder of [Complex Developers](https://github.com/complexdevelopers), a software studio in Nairobi, and a Computer Science student at Moi University. My work centers on systems that stay auditable under adversarial conditions, from model internals through to the agent runtime that executes their decisions. The [studio's platform and CRM](https://github.com/complexdevelopers/Complex-Developers-Web) runs on Next.js, Prisma, and Postgres.
+I am the founder of [Complex Developers](https://github.com/complexdevelopers), a software studio in Nairobi, and a Computer Science student at Moi University. My work centers on systems that stay auditable under adversarial conditions, from model internals through to the agent runtime that executes their decisions.
 
 Alongside the studio I have trained a cybersecurity language model from scratch, published a fail-closed agent safety runtime to PyPI, and contributed fixes upstream to PyTorch and AutoGPT. I prefer to demonstrate engineering with working, tested code, which is what the rest of this page points to.
 
