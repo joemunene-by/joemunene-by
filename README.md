@@ -25,6 +25,9 @@ The [ghostsuite](https://github.com/joemunene-by/ghostsuite) collects eleven sma
 
 ## Stack
 
-Python and PyTorch for models and tooling, Rust and Tauri for desktop, TypeScript with Next.js and Postgres for product work, GitHub Actions for CI.
+- **Models and agents:** Python, PyTorch and MLX, transformers written from scratch (tokenization, training, evaluation with proper statistics), MCP servers and clients, multi-vendor LLM serving.
+- **Security:** recon, web and mobile scanning, malware triage, intrusion detection, SIEM and forensics, cloud posture, key management. YARA, Sigma, STIX, CIS benchmarks.
+- **Product:** TypeScript with Next.js, React and Postgres (Prisma, Supabase), Rust and Tauri on the desktop, Go for small network tools, React Native shipped to the Play Store, C++ in Unreal Engine.
+- **Operations:** Docker, Kubernetes, Terraform, GitHub Actions, Prometheus, PyPI Trusted Publishing.
 
 Open to backend and security work. [joemunene984@gmail.com](mailto:joemunene984@gmail.com)
