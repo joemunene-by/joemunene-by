@@ -1,6 +1,6 @@
 # Joe Munene
 
-Founder of [Complex Developers](https://github.com/complexdevelopers), a software studio in Nairobi. I build security tooling and the AI systems around it: a language model trained from scratch, a fail-closed runtime for the agents that use it, and scanners for the surfaces they expose.
+Co-founder of [Soft Protocol Development](https://softprotocoldevelopment.com), a software studio I run with Marek in the Czech Republic, and founder of [Complex Developers](https://github.com/complexdevelopers) in Nairobi. I build security tooling and the AI systems around it: a language model trained from scratch, a fail-closed runtime for the agents that use it, and scanners for the surfaces they expose.
 
 [![ghostloop](https://img.shields.io/pypi/v/ghostloop?style=flat-square&label=ghostloop&color=1f2328)](https://pypi.org/project/ghostloop/)
 [![ghostprobe](https://img.shields.io/pypi/v/ghostprobe?style=flat-square&label=ghostprobe&color=1f2328)](https://pypi.org/project/ghostprobe/)
